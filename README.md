@@ -6,8 +6,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=arbaz001&label=Profile%20views&color=0e75b6&style=flat" alt="arbaz001" /> </p>
 
-<pre>🌱 I’m currently learning **C AND C++**</pre>
-<pre> 📫 How to reach me **arbazsgl@gmail.com**</pre>
+<p>🌱 I’m currently learning **C AND C++**</p>
+<p> 📫 How to reach me **arbazsgl@gmail.com**</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
