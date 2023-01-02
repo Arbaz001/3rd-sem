@@ -1,29 +1,18 @@
           Hacker rank algorithms warmup questions
 
 Q 1 solve me first:add of two numbers
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
+
+#include <bits/stdc++.h>
 using namespace std;
-
-int solveMeFirst(int a, int b) {
- int sum=a+b;
- return sum;
-  
-}
-
-int main() {
-  int num1, num2;
-  int sum;
-  cin>>num1>>num2;
-  sum = solveMeFirst(num1,num2);
-  cout<<sum;
-  return 0;
+int main(){
+    int a,b;
+    cin>>a>>b;
+    cout<<a+b<<endl;
+    return 0;
 }
 
 Q2 simple array sum
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -43,6 +32,7 @@ for(int i=0;i<n;i++){
 }cout<<sum;
 return 0;
 }
+
 Q3 a very big sum
 
 #include <bits/stdc++.h>
