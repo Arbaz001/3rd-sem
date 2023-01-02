@@ -113,42 +113,24 @@ vector<string> split(const string &str) {
     return tokens;
 }
 Q3 a very big sum
+
 #include <bits/stdc++.h>
 
 using namespace std;
-
-string ltrim(const string &);
-string rtrim(const string &);
-vector<string> split(const string &);
-
-/*
- * Complete the 'aVeryBigSum' function below.
- *
- * The function is expected to return a LONG_INTEGER.
- * The function accepts LONG_INTEGER_ARRAY ar as parameter.
- */
-
-long aVeryBigSum(vector<long> ar) {
-    int n=ar.size();
-    long int sum=0;
-    for(int i=0;i<ar.size();i++){
-        sum+=ar[i];
-    }
-    cout<<sum<<" "<<endl;
-return sum;
+int main(){
+    
+long sum=0;
+int n;
+cin>>n;
+int arr[n];
+for(int i=0;i<n;i++){
+    cin>>arr[i];
 }
-
-int main()
-{
- vector<long>ar;
- long element;
- int size;
- cin>>size;
- for(int i=0;i<size;i++){
-     cin>>element;
-     ar.push_back(element);
- }
-  aVeryBigSum( ar);
+for(int i=0;i<n;i++){
+    sum=sum+arr[i];
+}
+cout<<sum;
+return 0;
 }
 
 Q4 plus minus
